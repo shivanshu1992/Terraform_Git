@@ -1,4 +1,4 @@
-resource "google_compute_instance" "my_instance_weekend" {
+resource "google_compute_instance" "my_instance_weekend_changefrom_github" {
   name         = "testing-instance-weekend"
   machine_type = "n2-standard-2"
   zone = "us-west1-b"
