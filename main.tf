@@ -1,5 +1,5 @@
 resource "google_compute_instance" "my_instance_weekend_changefrom_github" {
-  name         = "testing-instance-weekend"
+  name         = "testing-instance-weekend_changefrom_github"
   machine_type = "n2-standard-2"
   zone = "us-west1-b"
   allow_stopping_for_update = true
